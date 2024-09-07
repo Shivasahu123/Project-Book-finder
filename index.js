@@ -25,7 +25,7 @@ $(document).ready(function() {
                 alert("no result!.. try again")
               }
               else {
-                $("#title").animate({'margin-top': '5px'}, 1000); //search box animation
+                $("#title").animate({'margin-top': '5px'}, 1000); 
                 $(".book-list").css("visibility", "visible");
                 displayResults(response);
               }
@@ -35,7 +35,7 @@ $(document).ready(function() {
             }
           });
         }
-        $("#search-box").val(""); //clearn search box
+        $("#search-box").val(""); 
      });
   
      
@@ -69,7 +69,7 @@ $(document).ready(function() {
   
      function formatOutput(bookImg, title, author, publisher, bookLink, bookIsbn) {
        // console.log(title + ""+ author +" "+ publisher +" "+ bookLink+" "+ bookImg)
-       var viewUrl = 'book.html?isbn='+bookIsbn; //constructing link for bookviewer
+       var viewUrl = 'book.html?isbn='+bookIsbn; 
        var htmlCard = `<div class="col-lg-6">
          <div class="card" style="">
            <div class="row no-gutters">

@@ -68,7 +68,7 @@ $(document).ready(function() {
      }
   
      function formatOutput(bookImg, title, author, publisher, bookLink, bookIsbn) {
-       // console.log(title + ""+ author +" "+ publisher +" "+ bookLink+" "+ bookImg)
+       
        var viewUrl = 'book.html?isbn='+bookIsbn; 
        var htmlCard = `<div class="col-lg-6">
          <div class="card" style="">

@@ -8,7 +8,7 @@ $(document).ready(function() {
   
     
     $("#search").click(function() {
-      outputList.innerHTML = ""; //empty html output
+      outputList.innerHTML = ""; 
       document.body.style.backgroundImage = "url('')";
        searchData = $("#search-box").val();
        if(searchData === "" || searchData === null) {

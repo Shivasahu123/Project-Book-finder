@@ -15,8 +15,7 @@ $(document).ready(function() {
          displayError();
        }
       else {
-         // console.log(searchData);
-         // $.get("https://www.googleapis.com/books/v1/volumes?q="+searchData, getBookData()});
+         
          $.ajax({
             url: bookUrl + searchData,
             dataType: "json",
